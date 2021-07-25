@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.173">
+<testcase classname="Registration with new account to elearning application" name="Signup with new Email id" time="25.731">
+<system-out><![CDATA[Given User opens URL in a browser to open Application.......................passed
+Given User clicks on SignUp Link............................................passed
+Then User validates that Registration page should be opened.................passed
+Given User enters first Name as "Mayur".....................................passed
+And User enters last Name as "Varshney".....................................passed
+And User enters unique EmailId..............................................passed
+And User enters unique Username.............................................passed
+And User enters valid password and confirm Password.........................passed
+And User enters Phone number as "9876543210"................................passed
+And User enter code.........................................................passed
+And User clicks on Register button..........................................passed
+Then verify Registration should be completed Successfully...................passed
+When User Clicks on top right corner to open drop-down......................passed
+Then User Validates the email which is entered..............................passed
+When User click on Inbox....................................................passed
+And user click on Compose Message Button....................................passed
+And user enters email of recipient..........................................passed
+And user enters subject as "Hi For Testing".................................passed
+And User enters message body................................................passed
+And user clicks on Send message button......................................passed
+Then user verify the email acknowlegement...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

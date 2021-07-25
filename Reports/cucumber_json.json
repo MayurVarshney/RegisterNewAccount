@@ -1,0 +1,323 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9792000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens URL in a browser to open Application",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_opens_url_in_a_browser_to_open_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-25T09:41:56.675Z",
+        "line": 10,
+        "name": "Signup with new Email id",
+        "description": "",
+        "id": "registration-with-new-account-to-elearning-application;signup-with-new-email-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4113000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on SignUp Link",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_clicks_on_sign_up_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User validates that Registration page should be opened",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_validates_that_registration_page_should_be_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters first Name as \"Mayur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mayur\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_first_name_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters last Name as \"Varshney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Varshney\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_last_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters unique EmailId",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_unique_EmailId()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters unique Username",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_unique_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters valid password and confirm Password",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_valid_password_and_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters Phone number as \"9876543210\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876543210\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_phone_number_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter code",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enter_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1963000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Register button",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify Registration should be completed Successfully",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.verify_registration_should_be_completed_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Clicks on top right corner to open drop-down",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_clicks_on_top_right_corner_to_open_drop_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Validates the email which is entered",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_validates_the_email_which_is_entered()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2458000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Inbox",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_click_on_inbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2147000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on Compose Message Button",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_click_on_compose_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1391000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters email of recipient",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_email_of_recipient()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters subject as \"Hi For Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi For Testing\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_subject_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters message body",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_enters_message_body()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2022000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on Send message button",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_clicks_on_send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user verify the email acknowlegement",
+            "match": {
+              "location": "com.upskills.elearning.stepdefinitions.StepDefinitions.user_verify_the_email_acknowlegement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Registration with new account to elearning application",
+    "description": "",
+    "id": "registration-with-new-account-to-elearning-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.upskills.elearning.featurFiles/Registration.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
